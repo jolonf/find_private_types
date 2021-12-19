@@ -1,0 +1,39 @@
+
+Module: application
+[:application_spec]
+
+Module: code
+[:add_path_ret, :loaded_filename]
+
+Module: disk_log
+[:notify_ret, :block_error_rsn, :chunk_ret, :bchunk_ret, :close_error_rsn,
+ :inc_wrap_error_rsn, :dlog_info, :lclose_error_rsn, :log_error_rsn, :open_ret,
+ :dlog_options, :reopen_error_rsn, :sync_error_rsn, :trunc_error_rsn,
+ :unblock_error_rsn]
+
+Module: erpc
+[:caught_call_exception]
+
+Module: error_logger
+[:open_error]
+
+Module: file
+[:posix_file_advise, :delete_option, :sendfile_option]
+
+Module: global
+[:method, :retries, :trans_fun]
+
+Module: global_group
+[:info_item]
+
+Module: logger
+[:config_handler]
+
+Module: net_adm
+[:verbosity]
+
+Module: seq_trace
+[:component, :value, :tracer]
+
+Module: wrap_log_reader
+[:chunk_ret, :open_ret]
